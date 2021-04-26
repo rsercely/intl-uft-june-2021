@@ -4,8 +4,7 @@ Browser("Advantage Shopping").Page("Advantage Shopping").WebList("productListbox
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("emailContactUs").Set DataTable("emailContactUs_Text", dtGlobalSheet) @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("emailContactUs")_;_script infofile_;_ZIP::ssf7.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("subjectTextareaContactUs").Set DataTable("subjectTextareaContactUs_Text", dtGlobalSheet) @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("subjectTextareaContactUs")_;_script infofile_;_ZIP::ssf8.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("send_btnundefined").Click
-if Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("WebElement").Exist (10) then @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("WebElement")_;_script infofile_;_ZIP::ssf14.xml_;_
-	Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("WebElement").Check CheckPoint("Thank you for contacting Advantage support.") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("WebElement")_;_script infofile_;_ZIP::ssf14.xml_;_
-End If
+Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("WebElement").Check CheckPoint("Thank you for contacting Advantage support.") @@ hightlight id_;_Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("WebElement")_;_script infofile_;_ZIP::ssf14.xml_;_
 
 foo=1
+
