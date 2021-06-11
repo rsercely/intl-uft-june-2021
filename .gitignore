@@ -1,3 +1,7 @@
 # ignore all result directories
 
 /Res*
+
+# ignore lock files
+
+*.lck

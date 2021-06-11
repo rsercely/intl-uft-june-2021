@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Start</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step0.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
+      <IconKey>f607d58b5bdd43178aead44c621f7373</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>GetFlights</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>f607d58b5bdd43178aead44c621f7373</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step1.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CreateFlightOrder</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>f607d58b5bdd43178aead44c621f7373</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step3.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Report Message6</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>f607d58b5bdd43178aead44c621f7373</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 1</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step6.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      <IconKey>dae7e63e2c254e27857f939f819f7acc</IconKey>
+    </Extension>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step6.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      <IconKey>1c0cd724429d4e3f9862cad7e9eb0269</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Test Flow</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step7.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step7.js</HtmlBottomFilePath>
+      <IconKey>f607d58b5bdd43178aead44c621f7373</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>End</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step8.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step8.js</HtmlBottomFilePath>
+      <IconKey>f607d58b5bdd43178aead44c621f7373</IconKey>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Boog a Flight</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>a54c70d17b82443ab8f145867f65b601</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16196</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2016</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>StRes1</ResultName>
+    <RunStartTime>2021-06-11 16:14:07</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

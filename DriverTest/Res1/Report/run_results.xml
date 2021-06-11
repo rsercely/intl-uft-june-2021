@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>RunAPITest</Name>
+    <Description>Boog a Flight</Description>
+    <StartTime>2021-06-11 16:14:07</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <StepCustomData>..\StRes1</StepCustomData>
+      <IconKey>4cef993611124d3abf999686e9529b8b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e31ae59f-a1d9-4782-8a93-66f11755383c.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>agentName.Set</Name>
+    <Description>"john"</Description>
+    <StartTime>2021-06-11 16:14:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[agentName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["john"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[agentName]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>88f762568b594a7c93dfc6d86dc5467d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f174f560-9468-424c-8d52-550154c94c07.jpeg" highlight="131,233,404,42" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>password.SetSecure</Name>
+    <Description>"60c1f5cc4c7c16df4de8"</Description>
+    <StartTime>2021-06-11 16:14:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[password]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["60c1f5cc4c7c16df4de8"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>88f762568b594a7c93dfc6d86dc5467d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\473525d9-44e9-44ab-8bd8-b5706dd372ca.jpeg" highlight="131,296,404,42" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>OK.Click</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[okButton]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5b0061ff4ab344f2a8630d289fabb198</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9767ba49-8a1b-49df-8035-a66ad4337a97.jpeg" highlight="131,359,73,36" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Micro Focus MyFlight Sample_2.Move</Name>
+    <Description>780, 329</Description>
+    <StartTime>2021-06-11 16:14:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Move</Operation>
+        <OperationData><![CDATA[780, 329]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Micro Focus MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[Micro Focus MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>895602d1b7a74f6f86f5825195c100f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a8175c03-f7bb-4bc6-8878-df77b466b58e.jpeg" highlight="0,0,976,578" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>WpfTabStrip.Select</Name>
+    <Description>"SEARCH ORDER"</Description>
+    <StartTime>2021-06-11 16:14:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfTabStrip</Type>
+            <Name><![CDATA[WpfTabStrip]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["SEARCH ORDER"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[tab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devnamepath]]></Name>
+            <Value><![CDATA[;;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9672299985e84ddbb481ba3608fdca4e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\81fcccb5-b576-4bbf-8e8f-cddc647ef97d.jpeg" highlight="8,31,300,540" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>byNumberRadio.Set</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfRadioButton</Type>
+            <Name><![CDATA[byNumberRadio]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[byNumberRadio]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d23d10e26f7a44208d823f9225a1b2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\210e7436-f5f3-4621-8488-b7f4236e9c44.jpeg" highlight="16,205,15,14" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>byNumberWatermark.Set</Name>
+    <Description>"91"</Description>
+    <StartTime>2021-06-11 16:14:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[byNumberWatermark]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["91"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[byNumberWatermark]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>88f762568b594a7c93dfc6d86dc5467d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\149e62a2-2ab6-4441-9882-fed1fe1b78a5.jpeg" highlight="38,195,250,34" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SEARCH.Click</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[SEARCH]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[SEARCH]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[searchBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5b0061ff4ab344f2a8630d289fabb198</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ecba9195-6ea0-4f35-a06b-e6fd6e74079f.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>NEW SEARCH.Click</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[NEW SEARCH]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[NEW SEARCH]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[newSearchBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5b0061ff4ab344f2a8630d289fabb198</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\072a6460-5ade-421f-b000-53e7a5a4e9e8.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Micro Focus MyFlight Sample_2.Close</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Micro Focus MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[Micro Focus MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>895602d1b7a74f6f86f5825195c100f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ca3d68be-d7ad-401f-81ff-2f37b2ab0c11.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Micro Focus MyFlight Sample_2</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2021-06-11 16:14:08</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[Micro Focus MyFlight Sample_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Micro Focus MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[Micro Focus MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>895602d1b7a74f6f86f5825195c100f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1 [Search Reservation]</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:08</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
+    <InputParameters>
+      <Parameter name="ReservationNumber" value="91" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>073e9f0ae91f4b4299f67a70b58c55d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:06</StartTime>
+    <Duration>7</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>073e9f0ae91f4b4299f67a70b58c55d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2021-06-11 16:14:05</StartTime>
+    <Duration>8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>2d4a5d667947411da437ee7034980c8c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>C:\Program Files (x86)\Micro Focus\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe</Name>
+        <Path />
+        <Version />
+        <AdditionalInfos>
+          <Info />
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>DriverTest</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2021-06-11 16:14:04</StartTime>
+    <Duration>9</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <OutputParameters>
+      <Parameter name="driverResOutput" value="" type="" />
+    </OutputParameters>
+    <Extension>
+      <IconKey>f4a592031859431cb2ac3da280925b5d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>00:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>16196</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows Server 2016</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2021-06-11 16:14:04</RunStartTime>
+    <Timezone>00:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
